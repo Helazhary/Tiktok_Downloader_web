@@ -1,3 +1,2 @@
 pyktok
 browser_cookie3
-BeautifulSoup
