@@ -26,10 +26,10 @@ def main():
     
     # Button to save video
     if st.button("Save TikTok Video"):
-     for file in os.listdir():
-        if file.endswith(".mp4"):
-            os.remove(file)
-            
+        for file in os.listdir():
+            if file.endswith(".mp4"):
+                os.remove(file)
+
         video_filename = save_tiktok_video(url)
         st.success("Video saved successfully!")
 
