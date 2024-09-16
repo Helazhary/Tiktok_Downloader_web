@@ -22,7 +22,7 @@ def main():
     st.title("TikTok Video Saver")
     
     # Input field for TikTok URL
-    url = st.text_input("Enter TikTok URL", "https://www.tiktok.com/@amr_eldezil/video/7389314858321267976?q=%D8%A7%D9%84%D8%A7%D9%87%D9%84%D9%8A&t=1719529026229")
+    url = st.text_input("Enter TikTok URL", "")
     
     # Button to save video
     if st.button("Save TikTok Video"):
